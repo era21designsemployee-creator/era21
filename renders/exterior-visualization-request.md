@@ -51,6 +51,42 @@ SketchUp model of a 3-story modern residential building. Reference screenshots p
   framed/gapped with black aluminium trim between slats. Keep the slat direction and
   layout exactly as modeled per floor; only apply this color/material treatment.
 
+## Ground-floor entrance zone — exact geometry (a prior AI render got this wrong)
+
+A rendered output was checked against the reference model and the entrance zone (gate +
+boundary wall) came out wrong — the gate lost its louvered-and-jaali-inset structure and
+turned into a generic uniform grille, the wall decorative panel was simplified, and the
+nameplate text was garbled. Per the zoomed reference detail, this zone must reproduce:
+
+- **Boundary/compound wall**: light beige matte plaster, a low wall with a horizontal
+  dark charcoal band running along the face roughly a third of the way up from the
+  base.
+- **Decorative wall panel** (left of the gate, next to the driveway): the upper-left
+  portion is a diamond cross-lattice (X-in-diamond) screen insert in the same
+  wood/bronze lattice material as the main facade jaali; it adjoins a narrow
+  horizontal-slat wood panel and a thin planter strip with low plants set into the wall
+  face between them. Keep this exact layout — lattice block + slat block + planter
+  strip side by side — do not simplify it into a single uniform panel.
+- **Nameplate/mailbox**: a small black rectangular plaque mounted on the wall to the
+  right of the decorative panel, with light-colored lettering. Keep it as a small dark
+  plaque in that position — see note below on text rendering.
+- **Entry portico columns**: square columns clad in vertical warm-wood slats, framing
+  the recessed entry.
+- **Entrance gate** (two-leaf swing/sliding gate, MS powder-coated, matte dark
+  gunmetal-gray per the material spec above): each leaf is clad mostly in **horizontal
+  louvered slats** — NOT a uniform grille or mesh — and each leaf has a **rectangular
+  jaali-inset window** set into its upper-middle portion only, filled with the same
+  fine diamond/cross-hatch antique-brass lattice pattern as the main facade screen. The
+  jaali inset is a framed window within the leaf, not the whole leaf. Gate posts are
+  boxy and capped, with a slim wall-light fixture on the end post.
+
+**Note on signage text**: AI image-to-image renderers are generally unreliable at
+reproducing small legible text (nameplates, house numbers). If the render tool cannot
+render the nameplate text cleanly, it is more important to keep it as a small dark
+plaque in the correct position with a plausible dark plate + light text look than to
+force legible characters — flag this to the user rather than leaving obviously garbled
+text.
+
 ## Rendering brief (final prompt — copy-paste ready)
 
 ```
@@ -154,6 +190,19 @@ guess, or substitute a different material for anything not listed here:
   black-aluminium slatted false ceiling — wood-tone slats with black aluminium trim
   between them, exact slat layout as modeled per floor.
 
+Ground-floor entrance zone — reproduce this exact structure, a prior render got it
+wrong: the entrance gate is a two-leaf gate clad mostly in horizontal louvered slats
+(NOT a uniform grille/mesh), with a rectangular jaali-inset window set into the
+upper-middle portion only of each leaf, filled with the same fine diamond antique-brass
+lattice as the main facade screen — the rest of each leaf stays plain louvers. The
+boundary wall to the left of the gate has a decorative panel made of three parts side
+by side: a diamond cross-lattice screen block, a narrow horizontal-slat wood block, and
+a thin planter strip with low plants — keep these as three distinct adjacent elements,
+not one merged panel. A small dark rectangular nameplate plaque sits on the wall to the
+right of that panel; render it as a small dark plate with light lettering in the
+correct position rather than an altered or oversized sign, and it is acceptable if the
+exact characters are not perfectly legible.
+
 Natural daylight illumination under a clear, crystal-blue sky. In the foreground, plants
 and vegetation strategically positioned on the opposite side of the street to create an
 organic visual closure and natural framing. In the background, tall pine trees composing
@@ -169,11 +218,15 @@ sharpness and photorealism.
 ```
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, incorrect lattice pattern, uniform or regularized
-lattice, white or painted lattice, altered entrance gate design, raw or glossy gate
-metal, wrong wall color, wrong ceiling color, flat or unslatted or white ceiling,
-invented or substituted materials on unspecified elements, poorly configured artificial
-lighting, overly dark shadows, digital noise, compression artifacts, presence of people,
-watermark, text, signature, overly saturated colors, cloudy sky, architectural
+lattice, white or painted lattice, altered entrance gate design, gate rendered as a
+uniform grille or mesh with no louvers, missing or resized jaali-inset window on the
+gate leaves, merged or simplified boundary-wall decorative panel, missing planter strip
+or lattice/slat blocks on the wall panel, oversized or relocated nameplate, raw or
+glossy gate metal, wrong wall color, wrong ceiling color, flat or unslatted or white
+ceiling, invented or substituted materials on unspecified elements, poorly configured
+artificial lighting, overly dark shadows, digital noise, compression artifacts, presence
+of people, watermark, garbled or illegible large text, signature, overly saturated
+colors, cloudy sky, architectural
 deformation, floating objects, amateur rendering.
 ```
 
