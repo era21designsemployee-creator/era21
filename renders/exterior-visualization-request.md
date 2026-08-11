@@ -62,11 +62,15 @@ nameplate text was garbled. Per the zoomed reference detail, this zone must repr
   dark charcoal band running along the face roughly a third of the way up from the
   base.
 - **Decorative wall panel** (left of the gate, next to the driveway): the upper-left
-  portion is a diamond cross-lattice (X-in-diamond) screen insert in the same
-  wood/bronze lattice material as the main facade jaali; it adjoins a narrow
-  horizontal-slat wood panel and a thin planter strip with low plants set into the wall
-  face between them. Keep this exact layout — lattice block + slat block + planter
-  strip side by side — do not simplify it into a single uniform panel.
+  portion is a diamond cross-lattice (X-in-diamond) screen in the same antique-brass
+  jaali material as the main facade screen; it adjoins a narrow horizontal-slat wood
+  panel and a thin planter strip with low plants set into the wall face between them.
+  Keep this exact layout — lattice block + slat block + planter strip side by side —
+  do not simplify it into a single uniform panel. **Construction/depth**: the brass
+  jaali portion is a separate lattice screen standing proud in front of the plain wall
+  surface (same layered construction as the large facade jaali above — wall behind,
+  brass lattice mounted in front of it with a visible gap/shadow line), it is NOT a
+  pattern flush-inlaid or flat-printed into the wall itself.
 - **Nameplate/mailbox**: a small black rectangular plaque mounted on the wall to the
   right of the decorative panel, two lines of light-colored lettering (name on top,
   unit number below). Keep it as a small dark plaque in that position — see note below
@@ -214,9 +218,13 @@ reads left-to-right as: louver strip, jaali strip, jaali strip, louver strip —
 NOT a louvered leaf with one small window cut into it, and NOT a uniform grille/mesh
 gate. The end gate post has a slim vertical ribbed light fixture on it. The boundary
 wall to the left of the gate has a decorative panel made of three parts side by side: a
-diamond cross-lattice screen block, a narrow horizontal-slat wood block, and a thin
-planter strip with low plants — keep these as three distinct adjacent elements, not one
-merged panel. A small dark rectangular two-line nameplate plaque sits on the wall to
+diamond cross-lattice antique-brass jaali screen block, a narrow horizontal-slat wood
+block, and a thin planter strip with low plants — keep these as three distinct adjacent
+elements, not one merged panel. The brass jaali block is a lattice screen standing
+proud in front of the plain wall surface (same layered construction as the large facade
+jaali above — wall behind, lattice mounted in front with a visible gap/shadow), not a
+pattern flush-inlaid or flat-printed into the wall. A small dark rectangular two-line
+nameplate plaque sits on the wall to
 the right of that panel, along the dark horizontal band; render it as a small dark
 plate with light lettering in the correct position rather than an altered or oversized
 sign, and it is acceptable if the exact characters are not perfectly legible.
