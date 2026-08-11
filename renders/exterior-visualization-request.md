@@ -35,8 +35,8 @@ SketchUp model of a 3-story modern residential building. Reference screenshots p
   even, factory-painted coating (not raw/gunmetal metal, not glossy). Keep the gate's
   exact bar/panel/perforation design from the reference close-up unchanged; only the
   finish is powder coat.
-- **Exterior walls**: **warm greige** — soft warm gray-beige matte plaster/paint finish
-  with fine stucco texture and subtle tonal variation.
+- **Exterior walls**: **light beige** — soft, pale warm-beige matte plaster/paint finish
+  with fine stucco texture and subtle tonal variation (all wall surfaces, all floors).
 - Glass balcony railings: clear low-iron glass, brushed stainless-steel/chrome posts and
   handrail.
 - Wood-slat wall cladding, roof fascia, entry accent panels: warm teak/walnut, matte
@@ -51,41 +51,74 @@ SketchUp model of a 3-story modern residential building. Reference screenshots p
   framed/gapped with black aluminium trim between slats. Keep the slat direction and
   layout exactly as modeled per floor; only apply this color/material treatment.
 
-## Rendering brief (final prompt)
+## Rendering brief (final prompt — copy-paste ready)
 
-Ultra-realistic, high-quality architectural visualization, 9:16 aspect ratio, vertical
-orientation, generated as an image-to-image render that strictly preserves the exact
-geometry, proportions, massing, floor layout, window and door positions, balcony
-design, railing design, staircase, ground-floor entrance gate design, jaali
-lattice pattern (including which cells are open vs. filled), and pergola of the
-reference SketchUp model — do NOT alter, add, remove, resize, or reinterpret any design
-element or proportion. Apply the material spec above throughout — including the
-antique-brass jaali, MS powder-coated entrance gate, and wood-tone
-(RGB 131,97,73) black-aluminium slatted false ceilings on every floor — with
-high-end PBR materials and detailed textures.
-Natural daylight illumination under a clear, crystal-blue sky, sun angled to rake across
-the brass lattice screens and cast rich, realistic shadow patterns onto the greige walls
-behind them. In the foreground, plants and vegetation positioned on the opposite side of
-the street to create organic visual closure and natural framing. In the background, tall
-pine trees composing the landscape. Realistic asphalt street with professional road
-markings, a well-finished technical sidewalk, and modern cars integrated into the scene.
-Eye-level perspective captured with a DSLR wide-angle lens. Advanced technical rendering
-using Global Illumination, Ambient Occlusion, HDR, Ray Tracing, and 8K resolution for
-maximum sharpness and photorealism. Camera framing and vertical composition must exactly
-match the reference model view.
+```
+Ultra-realistic, high-quality architectural exterior visualization, 9:16 aspect ratio,
+vertical orientation, generated as an image-to-image render from the attached reference
+SketchUp model screenshots. STRICTLY PRESERVE the exact geometry, proportions, massing,
+floor layout, window and door positions and sizes, balcony design, glass railing design,
+rooftop spiral staircase, pergola structure, and the ground-floor entrance gate design —
+do NOT alter, add, remove, resize, move, or reinterpret any design element, cut, or
+proportion. This is a materials-and-lighting-only render; the geometry must match the
+reference exactly.
+
+Materials (apply exactly as specified, no substitutions):
+- Diamond-lattice jaali screens (facade screen, corner wrap, pergola arch, and the
+  matching lattice inserts on the ground-floor sliding shutter doors): antique brass
+  metal, warm aged-brass tone, soft satin sheen, subtle dark oxidized patina in the
+  recesses and joints. The lattice pattern itself is a MIX of fully open (pierced)
+  diamond cells and solid (filled) diamond cells in the exact irregular cluster
+  arrangement shown in the reference close-ups — do not make the pattern uniform, do
+  not open the filled cells, do not fill the open cells.
+- Ground-floor entrance gate: MS (mild steel) with a powder-coated finish — matte, even,
+  factory-painted coating, not raw metal and not glossy. Keep the exact gate bar/panel
+  design from the reference.
+- Exterior walls (all floors): light beige matte plaster/paint finish with fine stucco
+  texture and subtle tonal variation.
+- Ceilings on every floor, including the covered terrace/pergola soffit: wooden-look
+  finish in a warm mid-brown wood tone, laid as a black-aluminium slatted false ceiling
+  — wood-tone slats/planks in a linear slatted pattern with black aluminium trim
+  between slats, exact slat direction and layout as modeled per floor.
+- Glass balcony railings: clear low-iron glass with brushed stainless-steel/chrome posts
+  and handrail.
+- Wood-slat wall cladding, roof fascia, and entry accent panels: warm teak/walnut, matte
+  oiled finish.
+- Main entry double door: dark walnut wood with brass hardware.
+- Ground-floor louvered shutter panels (separate from the entrance gate): matte dark
+  gunmetal-gray.
+- Terrace/balcony flooring: light gray large-format matte porcelain tile.
+
+Lighting and atmosphere: natural daylight under a clear, crystal-blue sky, sun angled to
+rake across the brass lattice screens and cast rich, realistic shadow patterns onto the
+light beige walls behind them. Soft fill light and gentle ambient occlusion in recessed
+balcony/terrace areas so interior furniture and ceilings read naturally, not blown out
+or too dark. In the foreground, plants and vegetation on the opposite side of the street
+for natural framing; tall pine trees in the background. Realistic asphalt street with
+professional road markings, a finished sidewalk, and modern cars integrated into the
+scene.
+
+Camera: eye-level perspective, DSLR wide-angle lens, framing and vertical composition
+exactly matching the reference model view.
+
+Rendering quality: high-end PBR materials, detailed textures, Global Illumination,
+Ambient Occlusion, HDR, Ray Tracing, 8K resolution, maximum sharpness and photorealism.
+```
 
 ### Negative prompt
 
+```
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, different building layout, moved or resized
 windows/doors/balconies, added or removed floors, incorrect lattice pattern, uniform or
 regularized lattice (ignoring the filled-vs-open cell mix), white or painted lattice,
-altered or simplified entrance gate design, raw/unpainted or glossy gate metal, cool
-gray walls, plastic-looking metal, wrong ceiling color, flat/unslatted or white ceiling,
-flat lighting, incorrect material color, poorly configured artificial lighting, overly
-dark shadows, digital noise, compression artifacts, presence of people, watermark, text,
-signature, overly saturated colors, cloudy sky, architectural deformation, floating
+altered or simplified entrance gate design, raw/unpainted or glossy gate metal, dark or
+cool gray walls, plastic-looking metal, wrong ceiling color, flat/unslatted or white
+ceiling, flat lighting, incorrect material color, poorly configured artificial lighting,
+overly dark shadows, digital noise, compression artifacts, presence of people, watermark,
+text, signature, overly saturated colors, cloudy sky, architectural deformation, floating
 objects, amateur rendering.
+```
 
 ## Note
 
