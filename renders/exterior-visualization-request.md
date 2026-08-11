@@ -68,17 +68,29 @@ nameplate text was garbled. Per the zoomed reference detail, this zone must repr
   face between them. Keep this exact layout — lattice block + slat block + planter
   strip side by side — do not simplify it into a single uniform panel.
 - **Nameplate/mailbox**: a small black rectangular plaque mounted on the wall to the
-  right of the decorative panel, with light-colored lettering. Keep it as a small dark
-  plaque in that position — see note below on text rendering.
+  right of the decorative panel, two lines of light-colored lettering (name on top,
+  unit number below). Keep it as a small dark plaque in that position — see note below
+  on text rendering.
 - **Entry portico columns**: square columns clad in vertical warm-wood slats, framing
   the recessed entry.
 - **Entrance gate** (two-leaf swing/sliding gate, MS powder-coated, matte dark
-  gunmetal-gray per the material spec above): each leaf is clad mostly in **horizontal
-  louvered slats** — NOT a uniform grille or mesh — and each leaf has a **rectangular
-  jaali-inset window** set into its upper-middle portion only, filled with the same
-  fine diamond/cross-hatch antique-brass lattice pattern as the main facade screen. The
-  jaali inset is a framed window within the leaf, not the whole leaf. Gate posts are
-  boxy and capped, with a slim wall-light fixture on the end post.
+  gunmetal-gray per the material spec above) — CORRECTED per a sharper close-up
+  reference, superseding any earlier "inset window" description: **each leaf is split
+  into two full-height vertical strips side by side**, not a louvered leaf with a small
+  window cut into it.
+  - The **outer strip** (the strip farther from the gate's center, i.e. closer to each
+    wall/post) is wider and is plain **horizontal louvered slats**, matte gunmetal-gray.
+  - The **inner strip** (the narrower strip closer to the gate's center, where the two
+    leaves meet) is filled with a **square-grid jaali lattice** — small square cells in
+    a grid, an irregular mix of solid brass/wood-tone filled squares and open/pierced
+    squares (same "mixed open and filled" design language as the main facade jaali, but
+    a square grid here, not a diamond grid). The two leaves' inner jaali strips sit
+    directly adjacent to each other at the gate's center line.
+  - So left-to-right across the full gate it reads: [louver strip] [jaali strip] |
+    [jaali strip] [louver strip] — symmetric about the center gap between the two
+    leaves.
+  - The end gate post (away from the wall) has a slim vertical ribbed/striped light
+    fixture mounted on it.
 
 **Note on signage text**: AI image-to-image renderers are generally unreliable at
 reproducing small legible text (nameplates, house numbers). If the render tool cannot
@@ -191,17 +203,23 @@ guess, or substitute a different material for anything not listed here:
   between them, exact slat layout as modeled per floor.
 
 Ground-floor entrance zone — reproduce this exact structure, a prior render got it
-wrong: the entrance gate is a two-leaf gate clad mostly in horizontal louvered slats
-(NOT a uniform grille/mesh), with a rectangular jaali-inset window set into the
-upper-middle portion only of each leaf, filled with the same fine diamond antique-brass
-lattice as the main facade screen — the rest of each leaf stays plain louvers. The
-boundary wall to the left of the gate has a decorative panel made of three parts side
-by side: a diamond cross-lattice screen block, a narrow horizontal-slat wood block, and
-a thin planter strip with low plants — keep these as three distinct adjacent elements,
-not one merged panel. A small dark rectangular nameplate plaque sits on the wall to the
-right of that panel; render it as a small dark plate with light lettering in the
-correct position rather than an altered or oversized sign, and it is acceptable if the
-exact characters are not perfectly legible.
+wrong: the entrance gate has two leaves, and each leaf is split into two full-height
+vertical strips side by side — an outer, wider strip of plain horizontal louvered
+slats (matte gunmetal-gray), and an inner, narrower strip filled with a square-grid
+jaali lattice pattern (small square cells, an irregular mix of solid brass/wood-tone
+filled squares and open/pierced squares — same mixed open/filled design language as
+the main facade jaali, but a square grid, not a diamond grid). The two leaves' inner
+jaali strips sit directly adjacent to each other at the gate's center line, so the gate
+reads left-to-right as: louver strip, jaali strip, jaali strip, louver strip — this is
+NOT a louvered leaf with one small window cut into it, and NOT a uniform grille/mesh
+gate. The end gate post has a slim vertical ribbed light fixture on it. The boundary
+wall to the left of the gate has a decorative panel made of three parts side by side: a
+diamond cross-lattice screen block, a narrow horizontal-slat wood block, and a thin
+planter strip with low plants — keep these as three distinct adjacent elements, not one
+merged panel. A small dark rectangular two-line nameplate plaque sits on the wall to
+the right of that panel, along the dark horizontal band; render it as a small dark
+plate with light lettering in the correct position rather than an altered or oversized
+sign, and it is acceptable if the exact characters are not perfectly legible.
 
 Natural daylight illumination under a clear, crystal-blue sky. In the foreground, plants
 and vegetation strategically positioned on the opposite side of the street to create an
@@ -219,14 +237,15 @@ sharpness and photorealism.
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, incorrect lattice pattern, uniform or regularized
 lattice, white or painted lattice, altered entrance gate design, gate rendered as a
-uniform grille or mesh with no louvers, missing or resized jaali-inset window on the
-gate leaves, merged or simplified boundary-wall decorative panel, missing planter strip
-or lattice/slat blocks on the wall panel, oversized or relocated nameplate, raw or
-glossy gate metal, wrong wall color, wrong ceiling color, flat or unslatted or white
-ceiling, invented or substituted materials on unspecified elements, poorly configured
-artificial lighting, overly dark shadows, digital noise, compression artifacts, presence
-of people, watermark, garbled or illegible large text, signature, overly saturated
-colors, cloudy sky, architectural
+uniform grille or mesh with no louvers, gate leaves without the louver-strip-plus-
+jaali-strip split, diamond-pattern jaali on the gate instead of square-grid jaali,
+single small window inset instead of a full-height jaali strip, merged or simplified
+boundary-wall decorative panel, missing planter strip or lattice/slat blocks on the wall
+panel, oversized or relocated nameplate, raw or glossy gate metal, wrong wall color,
+wrong ceiling color, flat or unslatted or white ceiling, invented or substituted
+materials on unspecified elements, poorly configured artificial lighting, overly dark
+shadows, digital noise, compression artifacts, presence of people, watermark, garbled or
+illegible large text, signature, overly saturated colors, cloudy sky, architectural
 deformation, floating objects, amateur rendering.
 ```
 
