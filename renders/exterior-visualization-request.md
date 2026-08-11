@@ -122,27 +122,37 @@ objects, amateur rendering.
 
 ## Final merged prompt (user's base prompt + locked material spec)
 
+**Revision note**: an earlier version of this prompt named specific materials for
+elements the user never actually specified (wood species, hardware finish, tile type,
+railing metal finish, etc.) — those were this assistant's visual guesses, not
+user-confirmed facts, and the user flagged this as unwanted invention. The prompt below
+now states an explicit material only for the elements the user has actually specified
+(jaali, walls, gate, ceiling); every other element is instructed to keep its exact
+appearance/color/material from the reference photos, with no material name asserted.
+
 ```
 Ultra-realistic, high-quality architectural visualization, 9:16 aspect ratio, vertical
 orientation. Image-to-image render that keeps the exact design, geometry, cuts, and
 layout of the reference SketchUp model unchanged — do not alter, add, remove, resize, or
 reinterpret any design element.
 
-Materials: diamond-lattice jaali screens (facade screen, corner wrap, pergola arch, and
-the matching lattice inserts on the ground-floor sliding shutter doors) in antique
-brass metal — warm aged-brass tone, soft satin sheen, subtle dark oxidized patina in the
-recesses and joints, with the lattice pattern rendered exactly as modeled (a mix of
-fully open/pierced diamond cells and solid/filled diamond cells — do not regularize or
-uniform the pattern). Ground-floor entrance gate in MS (mild steel) with a matte
-powder-coated finish, exact bar/panel design unchanged. Exterior walls in light beige
-matte plaster finish. Ceilings on every floor, including the covered terrace/pergola
-soffit, in a wooden-look black-aluminium slatted false ceiling — warm wood-tone slats
-with black aluminium trim between them. Glass balcony railings in clear low-iron glass
-with brushed stainless-steel/chrome posts and handrail. Wood-slat wall cladding, roof
-fascia, and entry accent panels in warm teak/walnut, matte oiled finish. Main entry
-double door in dark walnut wood with brass hardware. Ground-floor louvered shutter
-panels in matte dark gunmetal-gray. Terrace/balcony flooring in light gray large-format
-matte porcelain tile. High-end PBR materials and detailed textures throughout.
+Materials — apply only what is specified below; for every other surface, element, or
+fixture in the model (glass railings, wood-slat cladding, entry door, louvered shutter
+panels, flooring, fixtures, lighting fittings, furniture, etc.), reproduce its color,
+texture, and finish exactly as it appears in the reference images — do not invent,
+guess, or substitute a different material for anything not listed here:
+- Diamond-lattice jaali screens (facade screen, corner wrap, pergola arch, and the
+  matching lattice inserts on the ground-floor sliding shutter doors): antique brass
+  metal — warm aged-brass tone, soft satin sheen, subtle dark oxidized patina in the
+  recesses and joints. Render the lattice pattern exactly as modeled — a mix of fully
+  open/pierced diamond cells and solid/filled diamond cells, per the reference
+  close-ups — do not regularize or uniform the pattern.
+- Ground-floor entrance gate: MS (mild steel) with a matte powder-coated finish; exact
+  bar/panel design unchanged.
+- Exterior walls (all floors): light beige matte plaster finish.
+- Ceilings on every floor, including the covered terrace/pergola soffit: wooden-look
+  black-aluminium slatted false ceiling — wood-tone slats with black aluminium trim
+  between them, exact slat layout as modeled per floor.
 
 Natural daylight illumination under a clear, crystal-blue sky. In the foreground, plants
 and vegetation strategically positioned on the opposite side of the street to create an
@@ -161,9 +171,10 @@ Low resolution, poor quality, blurry image, unrealistic textures, geometric dist
 changed design, altered architecture, incorrect lattice pattern, uniform or regularized
 lattice, white or painted lattice, altered entrance gate design, raw or glossy gate
 metal, wrong wall color, wrong ceiling color, flat or unslatted or white ceiling,
-poorly configured artificial lighting, overly dark shadows, digital noise, compression
-artifacts, presence of people, watermark, text, signature, overly saturated colors,
-cloudy sky, architectural deformation, floating objects, amateur rendering.
+invented or substituted materials on unspecified elements, poorly configured artificial
+lighting, overly dark shadows, digital noise, compression artifacts, presence of people,
+watermark, text, signature, overly saturated colors, cloudy sky, architectural
+deformation, floating objects, amateur rendering.
 ```
 
 ## Note
