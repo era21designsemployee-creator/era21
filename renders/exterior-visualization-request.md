@@ -1,5 +1,80 @@
 # Exterior Architectural Visualization — Render Request
 
+## Master photorealistic prompt (use with any of the reference images)
+
+This is the definitive, most detailed version — use this one. Works with whichever
+reference image(s) you upload (front elevation, corner three-quarter view, or the zoom
+crops together). Geometry comes 100% from the uploaded image(s); only materials,
+surface properties, and lighting are specified below to push it toward a real
+photograph rather than a CGI/render look.
+
+> Photoreal architectural exterior photograph, shot as if by a professional real-estate
+>/architecture photographer with a full-frame DSLR, 24mm wide-angle lens, f/8 aperture,
+> ISO 100, tripod-level sharpness — NOT a CGI or cartoon render look. Generated strictly
+> from the attached reference image(s) of a 3-story modern residential building. The
+> reference image(s) are the exact ground truth for geometry, proportions, massing,
+> floor layout, every window/door/balcony position, railing design, staircase, pergola,
+> and camera framing/angle — do NOT alter, add, remove, resize, reinterpret, or
+> re-angle anything. Only materials and lighting are to be refined, exactly as follows.
+>
+> MATERIALS (physically accurate surface properties, applied only where shown, nowhere
+> else):
+> - Boundary-wall and facade jaali/lattice screens, gate lattice insets, and terrace
+>   pergola arch: **antique brass** — brushed/satin metal, mid-warm gold-bronze tone,
+>   soft specular highlights (not mirror-glossy, not flat/matte), with visible darker
+>   oxidized patina pooling in the corners and joints of each triangle unit for realism.
+>   Reproduce the exact diamond/triangular lattice pattern and its uneven filled/cut
+>   density gradient precisely — do not simplify or uniform it. The solid wall stays
+>   visible in shadow behind the boundary-wall jaali recess — it must not read as an
+>   open gap.
+> - Boundary-wall horizontal band: **black quartz** — dark charcoal-black stone with a
+>   fine-grain polished-to-semi-gloss finish and subtle mineral fleck texture, catching
+>   soft reflections of the sky — not flat matte paint, clearly visible as its own strip.
+> - Ground-floor entry gate louvers: matte gunmetal-gray powder-coated metal, low
+>   sheen, faint horizontal brushing.
+> - Ground-floor veranda pillar cladding: warm terracotta/copper-brown wood-look
+>   vertical slats, matte low-sheen finish, visible wood/fiber grain, distinctly more
+>   orange than the brass lattice.
+> - Building-corner pilaster cladding: flat matte dark charcoal-gray, minimal
+>   reflectivity.
+> - Second-floor rear wall (where visible): **Dreamy Grey HPL sheet** on the referenced
+>   half — smooth soft-sheen laminate, cool light-grey tone, faint directional grain.
+> - Exterior walls: warm off-white/greige matte plaster with fine stucco texture and
+>   gentle tonal variation — not flat, not glossy.
+> - Glass balcony railings: clear low-iron glass with realistic edge-green tint and
+>   soft reflections, brushed stainless-steel/chrome posts and top rail.
+> - Entry doors: dark walnut wood, sunburst grain pattern, satin varnish sheen, brass
+>   hardware.
+> - Terrace/porch flooring: light-grey large-format matte porcelain tile with faint
+>   veining; wood-slat decking under the terrace sofa area, warm oiled-teak matte finish.
+> - Wood-slat ceilings/pergola soffits: warm oiled teak/walnut, matte, visible linear
+>   grain, soft ambient-occlusion shadowing between slats.
+> - Fluted/reeded glass sliding doors and gray textured stone accent panel on the
+>   terrace: unchanged, matching the reference exactly.
+> - Everything else not listed (outdoor wicker sofa, pendant lamp, planters/greenery,
+>   spiral staircase, driveway, boundary hedge): keep exactly as shown in the reference.
+>
+> LIGHTING: bright natural daylight under a clear blue sky, sun positioned to rake
+> across the facade so it grazes the brass lattice and casts crisp, realistic patterned
+> shadows onto the wall behind it. Push exposure/lighting intensity noticeably higher
+> than a flat default render — bright, well-lit, high dynamic range, so material sheen
+> (brass satin highlights, quartz reflections, glass transparency) reads clearly, while
+> keeping shadow detail (no crushed blacks, no blown-out highlights). Soft bounce/fill
+> light in shadowed recesses so the lattice's inner recesses aren't pure black. Global
+> Illumination, ambient occlusion, ray-traced reflections, physically-based rendering,
+> 8K resolution, tack-sharp detail — the end result should be indistinguishable from a
+> real daylight photograph of the finished building.
+>
+> Negative prompt: CGI look, video-game render, flat lighting, dull/underexposed scene,
+> plastic-looking metal, blown-out highlights, crushed shadows, low resolution, blurry,
+> unrealistic textures, geometric distortion, changed design, altered architecture,
+> different building layout, changed camera angle/framing, moved or resized
+> windows/doors/balconies, added or removed floors, uniform/simplified lattice pattern
+> losing the filled/cut density gradient, wall disappearing behind lattice, black or
+> charcoal or dark-gunmetal lattice/jaali (must be antique brass), missing or invisible
+> black quartz strip, wrong rear-wall material, incorrect material color, digital noise,
+> compression artifacts, watermark, text, people, cars, amateur rendering.
+
 ## Flow AI prompt — use with the 5 uploaded reference images
 
 Copy-paste this directly into Flow AI along with the 5 reference images (1 full front
