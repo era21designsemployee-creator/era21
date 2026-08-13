@@ -229,10 +229,15 @@ the right of that panel, along the dark horizontal band; render it as a small da
 plate with light lettering in the correct position rather than an altered or oversized
 sign, and it is acceptable if the exact characters are not perfectly legible.
 
-Natural daylight illumination under a clear, crystal-blue sky. In the foreground, plants
-and vegetation strategically positioned on the opposite side of the street to create an
-organic visual closure and natural framing. In the background, tall pine trees composing
-the landscape. Realistic asphalt street with professional road markings, well-finished
+Natural daylight illumination under a clear, crystal-blue sky, brighter and richer than
+a flat daylight exposure — boost the overall lighting: all wall sconces, recessed
+ceiling downlights, and pendant fixtures across every floor and the entrance should read
+as visibly warm and glowing (soft warm-white glow), even though it is a daytime scene,
+adding depth and richness under the balconies, pergola, and entry portico rather than
+leaving those covered areas flat or dim. In the foreground, plants and vegetation
+strategically positioned on the opposite side of the street to create an organic visual
+closure and natural framing. In the background, tall pine trees composing the
+landscape. Realistic asphalt street with professional road markings, well-finished
 technical sidewalk, and modern cars integrated into the scene. Eye-level perspective
 captured with a DSLR wide-angle lens. Advanced technical rendering using Global
 Illumination, Ambient Occlusion, HDR, Ray Tracing, and 8K resolution for maximum
@@ -245,15 +250,18 @@ sharpness and photorealism.
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, incorrect lattice pattern, uniform or regularized
 lattice, white or painted lattice, altered entrance gate design, gate rendered as a
-uniform grille or mesh with no louvers, gate leaves without the louver-strip-plus-
-jaali-strip split, diamond-pattern jaali on the gate instead of square-grid jaali,
-single small window inset instead of a full-height jaali strip, merged or simplified
-boundary-wall decorative panel, missing planter strip or lattice/slat blocks on the wall
-panel, oversized or relocated nameplate, raw or glossy gate metal, wrong wall color,
-wrong ceiling color, flat or unslatted or white ceiling, invented or substituted
-materials on unspecified elements, poorly configured artificial lighting, overly dark
-shadows, digital noise, compression artifacts, presence of people, watermark, garbled or
-illegible large text, signature, overly saturated colors, cloudy sky, architectural
+uniform grille or mesh with no louvers, entire gate leaf covered edge-to-edge in a
+single diagonal X/crosshatch lattice with no plain louvered section, gate leaves
+without the louver-strip-plus-jaali-strip split, diamond-pattern jaali on the gate
+instead of square-grid jaali, single small window inset instead of a full-height jaali
+strip, merged or simplified boundary-wall decorative panel, missing planter strip or
+lattice/slat blocks on the wall panel, oversized or relocated nameplate, raw or glossy
+gate metal, wrong wall color, wrong ceiling color, flat or unslatted or white ceiling,
+invented or substituted materials on unspecified elements, flat or dim lighting under
+covered/shaded areas, unlit sconces or fixtures, poorly configured artificial lighting,
+overly dark shadows, digital noise, compression artifacts, presence of people, watermark,
+garbled or illegible large text, signature, overly saturated colors, cloudy sky,
+architectural
 deformation, floating objects, amateur rendering.
 ```
 
