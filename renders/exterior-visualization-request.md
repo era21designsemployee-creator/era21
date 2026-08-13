@@ -1,5 +1,55 @@
 # Exterior Architectural Visualization — Render Request
 
+## Flow AI prompt — use with the 5 uploaded reference images
+
+Copy-paste this directly into Flow AI along with the 5 reference images (1 full front
+elevation + 4 zoomed detail crops: boundary-wall jaali/planter, the large facade lattice
+screen meeting the balcony, the ground-floor veranda pillars, and the covered terrace
+pergola/sofa).
+
+> Ultra-realistic architectural exterior visualization, generated strictly from the 5
+> attached reference images of a 3-story modern residential building. Treat the
+> reference images as the exact ground truth for geometry, proportions, massing, floor
+> layout, window and door positions, balcony design, railing design, staircase, pergola,
+> and every architectural detail — do NOT alter, add, remove, resize, or reinterpret any
+> design element. This is a materials-and-lighting render only.
+>
+> Apply these exact materials, matching the reference images precisely and nowhere else:
+> - Boundary wall: the diamond/triangular jaali lattice (alternating filled and open
+>   cut triangles) set into a recessed panel on the wall is **antique brass** metal with
+>   a warm satin sheen — not black, not dark gunmetal. The solid wall remains visible
+>   recessed behind the jaali; it does not turn into an open void. Beside the jaali, the
+>   horizontal slat louvers and planter strip stay as shown. The thick horizontal band
+>   running along the boundary wall is **black quartz** — a distinct dark textured stone
+>   strip, clearly visible, not merged into the wall color.
+> - First-floor and second-floor large lattice screen: same antique brass diamond
+>   lattice unit, with its exact uneven density gradient reproduced — dense/filled zones
+>   dissolving into sparse/open zones exactly as shown, not a uniform repeating grille.
+> - Covered terrace pergola arch: same antique brass diamond lattice, matching tone and
+>   finish exactly.
+> - Ground-floor entry gate: matte gunmetal-gray horizontal louvers with antique brass
+>   lattice grille insets.
+> - Ground-floor veranda pillars: warm terracotta/copper-brown vertical slat cladding —
+>   a distinct, more orange-toned material from the golden antique brass jaali.
+> - Second-floor rear wall: half-clad in Dreamy Grey HPL sheet.
+> - Everything else — walls, entry doors, glass railings, flooring, ceilings/pergola
+>   soffits, fluted glass doors, gray stone accent panel, outdoor furniture, staircase —
+>   unchanged, matching the reference exactly.
+>
+> Lighting: natural daylight, clear sky, with higher lighting intensity/exposure than a
+> flat default render so the scene looks photorealistic — sunlight bringing out true
+> material texture and sheen on the brass lattice and black quartz band, avoiding dull
+> or flat shadows. High-end PBR materials, detailed textures, Global Illumination,
+> Ambient Occlusion, Ray Tracing, 8K resolution.
+>
+> Negative prompt: low resolution, blurry, unrealistic textures, geometric distortion,
+> changed design, altered architecture, different building layout, moved or resized
+> windows/doors/balconies, added or removed floors, uniform/simplified lattice pattern
+> losing the filled/cut density gradient, wall disappearing behind lattice, black or
+> charcoal or dark-gunmetal lattice/jaali, missing or invisible black quartz strip,
+> wrong rear-wall material, flat/underlit lighting, dull daylight, incorrect material
+> color, digital noise, compression artifacts, watermark, text, amateur rendering.
+
 ## Reference model
 
 SketchUp model of a 3-story modern residential building (P.K. Singh, A-12A). Six
@@ -63,6 +113,14 @@ substitutions and no "improvements."
   and gray textured stone accent panel beside the seating area: unchanged, matching the
   reference exactly (no material change specified for these).
 
+### Ground floor — veranda pillars
+
+- The vertical slat cladding on the ground-floor veranda pillars (per reference image
+  showing the porch/entry pillars under the wood-slat pergola ceiling) is a distinct
+  **warm terracotta/copper-brown** tone — visibly more orange/red than the golden
+  antique brass jaali. Keep this as its own separate material; do not merge it visually
+  with the brass jaali color.
+
 ### Ground floor — entry gate
 
 - Louvered panels: matte gunmetal-gray horizontal louvers.
@@ -80,10 +138,11 @@ substitutions and no "improvements."
 
 ### Everything else
 
-- All other materials, colors, and design elements (entry doors, glass railings with
-  brushed-steel posts, exterior wall base tone, flooring, wood-slat cladding on
-  first-floor pillars, spiral staircase, etc.) stay exactly as they already appear in
-  the reference — no substitutions, no extra changes.
+- All other materials, colors, and design elements (entry doors — dark walnut with
+  sunburst wood grain, glass railings with brushed-steel posts, exterior wall base
+  tone, terrace/porch flooring, white/cream louvered panels, wicker outdoor sofa,
+  pendant lamp, spiral staircase, etc.) stay exactly as they already appear in the
+  reference — no substitutions, no extra changes.
 
 ## Lighting
 
