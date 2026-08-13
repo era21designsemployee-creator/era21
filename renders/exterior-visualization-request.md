@@ -50,6 +50,62 @@ pergola/sofa).
 > wrong rear-wall material, flat/underlit lighting, dull daylight, incorrect material
 > color, digital noise, compression artifacts, watermark, text, amateur rendering.
 
+## Flow AI prompt — three-quarter corner view
+
+A second reference image was provided: an elevated three-quarter corner perspective
+(front facade + right side facade visible together), showing the same building — same
+front-facade jaali/boundary-wall/gate/terrace design as the front elevation, plus the
+right side facade with its own windows, glass railings continuing around the corner,
+and full-height flat dark charcoal-gray pilaster/corner cladding at the building edge
+between the lattice screen and the side facade. Use this alongside the front-elevation
+prompt above; only the camera framing changes, the material spec is identical.
+
+> Ultra-realistic architectural exterior visualization, generated strictly from the
+> attached reference image: an elevated three-quarter corner view of a 3-story modern
+> residential building, showing the front facade and right side facade together. Treat
+> the reference image as the exact ground truth for geometry, proportions, massing,
+> floor layout, window and door positions on both visible facades, balcony design,
+> railing design continuing around the corner, staircase, pergola, and every
+> architectural detail — do NOT alter, add, remove, resize, or reinterpret any design
+> element, and do NOT change the camera framing/angle from what is shown. This is a
+> materials-and-lighting render only.
+>
+> Apply these exact materials, matching the reference image precisely and nowhere else:
+> - Boundary wall: antique brass diamond/triangular jaali lattice (alternating filled
+>   and open cut triangles) inset into a recessed panel, solid wall visible behind it
+>   (not an open void), paired with horizontal slat louvers and planter strip; thick
+>   black quartz horizontal band running along the wall, clearly visible as a distinct
+>   dark textured stone strip.
+> - First-floor and second-floor large lattice screen on the front facade: antique
+>   brass, same diamond lattice unit, with its exact uneven density gradient (dense
+>   filled zones dissolving into sparse open zones) reproduced precisely.
+> - Covered terrace pergola arch: same antique brass diamond lattice.
+> - Ground-floor entry gate: matte gunmetal-gray horizontal louvers with antique brass
+>   lattice grille insets.
+> - Ground-floor veranda pillars: warm terracotta/copper-brown vertical slat cladding,
+>   distinct from the golden antique brass jaali.
+> - Building-edge corner pilaster (between the lattice screen and the side facade):
+>   flat matte dark charcoal-gray cladding, exactly as referenced.
+> - Second-floor rear wall: half-clad in Dreamy Grey HPL sheet (if visible from this
+>   angle).
+> - Right side facade, glass railings, windows, boundary-wall hedge/shrubs, side yard
+>   paving: unchanged, matching the reference exactly.
+>
+> Lighting: natural daylight, clear sky, with higher lighting intensity/exposure than a
+> flat default render so the scene looks photorealistic — sunlight bringing out true
+> material texture and sheen on the brass lattice, black quartz band, and charcoal-gray
+> pilaster, avoiding dull or flat shadows. High-end PBR materials, detailed textures,
+> Global Illumination, Ambient Occlusion, Ray Tracing, 8K resolution.
+>
+> Negative prompt: low resolution, blurry, unrealistic textures, geometric distortion,
+> changed design, altered architecture, different building layout, changed camera
+> angle/framing, moved or resized windows/doors/balconies, added or removed floors,
+> uniform/simplified lattice pattern losing the filled/cut density gradient, wall
+> disappearing behind lattice, black or charcoal or dark-gunmetal lattice/jaali,
+> missing or invisible black quartz strip, wrong rear-wall material, flat/underlit
+> lighting, dull daylight, incorrect material color, digital noise, compression
+> artifacts, watermark, text, amateur rendering.
+
 ## Reference model
 
 SketchUp model of a 3-story modern residential building (P.K. Singh, A-12A). Six
