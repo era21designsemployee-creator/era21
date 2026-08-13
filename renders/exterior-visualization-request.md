@@ -59,18 +59,22 @@ turned into a generic uniform grille, the wall decorative panel was simplified, 
 nameplate text was garbled. Per the zoomed reference detail, this zone must reproduce:
 
 - **Boundary/compound wall**: light beige matte plaster, a low wall with a horizontal
-  dark charcoal band running along the face roughly a third of the way up from the
-  base.
+  dark band running along the face roughly a third of the way up from the base. This
+  band's material is **black quartz** (dark, subtly flecked stone/composite surface,
+  not flat matte paint).
 - **Decorative wall panel** (left of the gate, next to the driveway): the upper-left
   portion is a diamond cross-lattice (X-in-diamond) screen in the same antique-brass
   jaali material as the main facade screen; it adjoins a narrow horizontal-slat wood
   panel and a thin planter strip with low plants set into the wall face between them.
   Keep this exact layout — lattice block + slat block + planter strip side by side —
-  do not simplify it into a single uniform panel. **Construction/depth**: the brass
-  jaali portion is a separate lattice screen standing proud in front of the plain wall
-  surface (same layered construction as the large facade jaali above — wall behind,
-  brass lattice mounted in front of it with a visible gap/shadow line), it is NOT a
-  pattern flush-inlaid or flat-printed into the wall itself.
+  do not simplify it into a single uniform panel. **Construction/depth — CORRECTED**:
+  the boundary wall is 9 inches thick; a 5-inch-deep recess is cut into its outer face,
+  and a 4-inch-deep antique-brass jaali sits inside that recess. This means the jaali
+  is set INTO a pocket recessed from the wall's outer face (recessed, not standing
+  proud out in front of it), and the remaining 4 inches of solid wall stays behind the
+  jaali as a visible backdrop through its open cells — the wall must NOT disappear or
+  read as absent behind the lattice; it is always visible as a backing surface. This is
+  the same recessed-pocket construction as the large facade jaali above.
 - **Nameplate/mailbox**: a small black rectangular plaque mounted on the wall to the
   right of the decorative panel, two lines of light-colored lettering (name on top,
   unit number below). Keep it as a small dark plaque in that position — see note below
@@ -217,17 +221,20 @@ jaali strips sit directly adjacent to each other at the gate's center line, so t
 reads left-to-right as: louver strip, jaali strip, jaali strip, louver strip — this is
 NOT a louvered leaf with one small window cut into it, and NOT a uniform grille/mesh
 gate. The end gate post has a slim vertical ribbed light fixture on it. The boundary
-wall to the left of the gate has a decorative panel made of three parts side by side: a
-diamond cross-lattice antique-brass jaali screen block, a narrow horizontal-slat wood
-block, and a thin planter strip with low plants — keep these as three distinct adjacent
-elements, not one merged panel. The brass jaali block is a lattice screen standing
-proud in front of the plain wall surface (same layered construction as the large facade
-jaali above — wall behind, lattice mounted in front with a visible gap/shadow), not a
-pattern flush-inlaid or flat-printed into the wall. A small dark rectangular two-line
-nameplate plaque sits on the wall to
-the right of that panel, along the dark horizontal band; render it as a small dark
-plate with light lettering in the correct position rather than an altered or oversized
-sign, and it is acceptable if the exact characters are not perfectly legible.
+wall (9 inches thick) to the left of the gate has a decorative panel made of three
+parts side by side: a diamond cross-lattice antique-brass jaali block, a narrow
+horizontal-slat wood block, and a thin planter strip with low plants — keep these as
+three distinct adjacent elements, not one merged panel. The brass jaali block sits
+inside a recessed pocket cut 5 inches deep into the wall's outer face, with the jaali
+itself 4 inches deep within that recess — so the jaali reads as set INTO the wall, not
+standing proud out in front of it, and the remaining solid wall thickness stays clearly
+visible behind the lattice as a backdrop through its open cells (the wall must never
+look like it disappears behind the jaali). The horizontal dark band running along the
+wall is black quartz — a dark stone/composite surface, not flat paint. A small dark
+rectangular two-line nameplate plaque sits on the wall to the right of the decorative
+panel, along that black quartz band; render it as a small dark plate with light
+lettering in the correct position rather than an altered or oversized sign, and it is
+acceptable if the exact characters are not perfectly legible.
 
 Natural daylight illumination under a clear, crystal-blue sky, brighter and richer than
 a flat daylight exposure — boost the overall lighting: all wall sconces, recessed
@@ -255,9 +262,12 @@ single diagonal X/crosshatch lattice with no plain louvered section, gate leaves
 without the louver-strip-plus-jaali-strip split, diamond-pattern jaali on the gate
 instead of square-grid jaali, single small window inset instead of a full-height jaali
 strip, merged or simplified boundary-wall decorative panel, missing planter strip or
-lattice/slat blocks on the wall panel, oversized or relocated nameplate, raw or glossy
-gate metal, wrong wall color, wrong ceiling color, flat or unslatted or white ceiling,
-invented or substituted materials on unspecified elements, flat or dim lighting under
+lattice/slat blocks on the wall panel, jaali floating proud in front of the wall with no
+wall visible behind it, wall appearing to vanish or be cut away behind the jaali, dark
+band on the wall rendered as flat matte paint instead of black quartz stone texture,
+oversized or relocated nameplate, raw or glossy gate metal, wrong wall color, wrong
+ceiling color, flat or unslatted or white ceiling, invented or substituted materials on
+unspecified elements, flat or dim lighting under
 covered/shaded areas, unlit sconces or fixtures, poorly configured artificial lighting,
 overly dark shadows, digital noise, compression artifacts, presence of people, watermark,
 garbled or illegible large text, signature, overly saturated colors, cloudy sky,
