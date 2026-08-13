@@ -2,11 +2,12 @@
 
 ## Reference model
 
-SketchUp model of a 3-story modern residential building (P.K. Singh, A-12A). Five
+SketchUp model of a 3-story modern residential building (P.K. Singh, A-12A). Six
 reference screenshots were shared inline in the requesting conversation: (1) full front
 elevation on grass, (2) zoom on boundary-wall jaali panel + first-floor brass slat
 pillars/pergola, (3) zoom on the large first/second-floor diamond lattice screen, (4)
-zoom on the entry gate, (5) zoom on the boundary-wall jaali/planter detail. They were
+zoom on the entry gate, (5) zoom on the boundary-wall jaali/planter detail, (6) zoom on
+the covered terrace with arched lattice pergola over the sectional sofa. They were
 reviewed directly and analyzed below, but could not be saved as files into this repo
 (received as inline chat images, no filesystem path) — see Note at the end.
 
@@ -50,6 +51,17 @@ substitutions and no "improvements."
   dissolving toward the plain wall/window behind at the screen's edges. This gradient
   transition must be reproduced exactly as shown — do not turn it into a uniform,
   evenly-repeating grille.
+
+### Covered terrace — pergola arch
+
+- The arched pergola frame over the sectional sofa (per reference image 6) uses the
+  **same diamond/triangular lattice unit** as the boundary wall and facade screen —
+  alternating filled/cut triangles.
+- Material: **antique brass**, matching the jaali material used everywhere else — same
+  tone and finish, no variation.
+- Wood-slat ceiling/soffit above the terrace, and the fluted/reeded glass sliding doors
+  and gray textured stone accent panel beside the seating area: unchanged, matching the
+  reference exactly (no material change specified for these).
 
 ### Ground floor — entry gate
 
@@ -99,11 +111,13 @@ Apply the following materials exactly as specified, nowhere else:
   triangle-grid unit, with the exact uneven density gradient (dense/filled zones
   dissolving into sparse/open zones) reproduced precisely — no uniform or simplified
   grille substitution.
+- Covered terrace pergola arch: same antique brass diamond-lattice unit as the other
+  jaali elements, exactly as referenced.
 - Entry gate: matte gunmetal-gray louvered panels with antique brass lattice grille
   insets, exactly as referenced.
 - Second-floor rear wall: half-clad in Dreamy Grey HPL sheet, exactly as referenced.
-- Ceilings, pergola soffits, and all other elements: unchanged, matching the reference
-  exactly.
+- Ceilings, pergola soffits, fluted glass doors, stone accent panels, and all other
+  elements: unchanged, matching the reference exactly.
 
 Lighting: natural daylight, clear sky, higher lighting intensity/exposure than a default
 render so the scene looks photorealistic — sunlight bringing out true material texture
@@ -124,9 +138,10 @@ rendering.
 
 ## Note
 
-The 5 reference SketchUp screenshots were reviewed and analyzed directly (elevation,
-boundary-wall jaali zoom, large lattice screen zoom, gate zoom, planter zoom) to write
-the material/pattern spec above, but arrived as inline chat images with no filesystem
-path, so they could not be committed into this repo. If they can be exported to files
-(e.g. `renders/reference/01-elevation.png`, `02-jaali-zoom.png`, etc.), add them here so
-they can be attached directly to the rendering tool alongside this brief.
+The 6 reference SketchUp screenshots were reviewed and analyzed directly (elevation,
+boundary-wall jaali zoom, large lattice screen zoom, gate zoom, planter zoom, terrace
+pergola zoom) to write the material/pattern spec above, but arrived as inline chat
+images with no filesystem path, so they could not be committed into this repo. If they
+can be exported to files (e.g. `renders/reference/01-elevation.png`,
+`02-jaali-zoom.png`, etc.), add them here so they can be attached directly to the
+rendering tool alongside this brief.
