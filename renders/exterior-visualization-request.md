@@ -2,73 +2,131 @@
 
 ## Reference model
 
-SketchUp model of a 3-story modern residential building. Reference screenshots provided
-(not yet committed to this repo — see note below):
+SketchUp model of a 3-story modern residential building (P.K. Singh, A-12A). Five
+reference screenshots were shared inline in the requesting conversation: (1) full front
+elevation on grass, (2) zoom on boundary-wall jaali panel + first-floor brass slat
+pillars/pergola, (3) zoom on the large first/second-floor diamond lattice screen, (4)
+zoom on the entry gate, (5) zoom on the boundary-wall jaali/planter detail. They were
+reviewed directly and analyzed below, but could not be saved as files into this repo
+(received as inline chat images, no filesystem path) — see Note at the end.
 
-1. Full front elevation, three-quarter view, on a green lawn base, showing:
-   - Ground floor: entry with paneled double door, decorative wood-slat wall panels,
-     perforated metal gate/fence, driveway.
-   - Upper floors: glass-and-steel balcony railings, a large diamond-lattice wood/metal
-     screen (jaali) spanning the left facade, cantilevered slab balconies.
-   - Roof level: rooftop terrace with a spiral staircase, wood-slat pergola/fascia trim.
-2. Detail: sliding louvered gray metal storage/utility doors with lattice-panel inserts.
-3. Detail: close-up of the diamond-lattice wood screen where it meets a horizontal-slat
-   wall and a planter box with flowering greenery.
-4. Detail: the diamond-lattice screen wrapping a building corner, adjacent to glass
-   balcony railing and interior sliding doors.
-5. Interior/covered terrace: tiled balcony floor, an arched lattice-wood pergola frame
-   over a sectional outdoor sofa, potted plants, slatted wall cladding.
+## Scope of this request (materials + lighting ONLY)
 
-## Material spec (locked — design geometry must not change)
+**No geometry, layout, proportions, floor count, window/door/balcony positions, or any
+other design element may be changed.** This is a materials-and-lighting pass on top of
+the exact existing design. Anything not explicitly called out below must render exactly
+as it appears in the reference images — same design, same color, same pattern, no
+substitutions and no "improvements."
 
-- **Diamond-lattice (jaali) screens** — the large facade screen on the left/corner, the
-  arched pergola frame over the terrace sofa, and the matching lattice inserts on the
-  ground-floor sliding shutter doors: **antique brass** metal — warm aged brass tone,
-  soft satin sheen, subtle dark oxidized patina in recesses/joints.
-- **Exterior walls**: **warm greige** — soft warm gray-beige matte plaster/paint finish
-  with fine stucco texture and subtle tonal variation.
-- Glass balcony railings: clear low-iron glass, brushed stainless-steel/chrome posts and
-  handrail.
-- Wood-slat wall cladding, roof fascia, entry accent panels: warm teak/walnut, matte
-  oiled finish.
-- Main entry double door: dark walnut wood with brass hardware.
-- Ground-floor perforated gate and louvered shutter panels: matte dark gunmetal-gray.
-- Terrace/balcony flooring: light gray large-format matte porcelain tile.
+## Material spec (locked)
 
-## Rendering brief (final prompt)
+### Ground floor — boundary wall
 
-Ultra-realistic, high-quality architectural visualization, 9:16 aspect ratio, vertical
-orientation, generated as an image-to-image render that strictly preserves the exact
-geometry, proportions, massing, floor layout, window and door positions, balcony
-design, railing design, staircase, and pergola of the reference SketchUp model — do NOT
-alter, add, remove, resize, or reinterpret any design element or proportion. Apply the
-material spec above throughout, with high-end PBR materials and detailed textures.
-Natural daylight illumination under a clear, crystal-blue sky, sun angled to rake across
-the brass lattice screens and cast rich, realistic shadow patterns onto the greige walls
-behind them. In the foreground, plants and vegetation positioned on the opposite side of
-the street to create organic visual closure and natural framing. In the background, tall
-pine trees composing the landscape. Realistic asphalt street with professional road
-markings, a well-finished technical sidewalk, and modern cars integrated into the scene.
-Eye-level perspective captured with a DSLR wide-angle lens. Advanced technical rendering
-using Global Illumination, Ambient Occlusion, HDR, Ray Tracing, and 8K resolution for
-maximum sharpness and photorealism. Camera framing and vertical composition must exactly
-match the reference model view.
+- The boundary wall carries a jaali (lattice) band in its **upper portion**. Behind the
+  jaali, the solid wall continues — it must read as a perforated screen recessed in
+  front of a solid wall, **not** as an open gap/void straight through.
+- Wall build-up: **9 inch** thick boundary wall → a **5 inch deep recess/cut** into the
+  wall → a **4 inch deep jaali panel** inset within that recess (visible shadow depth
+  behind the lattice, backed by the wall surface).
+- Jaali pattern (per reference image 5 / boundary-wall zoom): a **diamond/triangular
+  grid** — each square unit is divided by both diagonals into 4 triangles, with
+  **alternating solid (filled) triangles and open (cut-through) triangles**, repeating
+  across the panel to form a pinwheel/diamond weave. This diamond-lattice section
+  occupies the left portion of the recessed panel.
+- The right portion of the same recessed panel is **horizontal slat louvers**, with a
+  narrow planter strip of low flowering greenery set in front of it, exactly as shown.
+- Jaali/lattice material: **antique brass**.
+- The boundary wall also has a **thick black horizontal band** running continuously
+  along the wall (including through/around the recessed jaali panel, per reference).
+  Material: **black quartz** — dark textured stone finish, not flat matte paint.
+
+### First floor & second floor — large diamond lattice screen
+
+- Material: **antique brass**.
+- Pattern (per reference images 2 & 3): the same diagonal-triangle diamond-grid unit as
+  the boundary wall jaali, but applied across a **large screen with an uneven, organic
+  density gradient** — densely packed, fully filled lattice in some zones, and
+  progressively sparser/more open (more cut triangles, larger gaps) in other zones,
+  dissolving toward the plain wall/window behind at the screen's edges. This gradient
+  transition must be reproduced exactly as shown — do not turn it into a uniform,
+  evenly-repeating grille.
+
+### Ground floor — entry gate
+
+- Louvered panels: matte gunmetal-gray horizontal louvers.
+- Vertical grille insets within the gate panels: same antique brass diamond/cross-hatch
+  lattice material as above, matching reference image 4.
+
+### Second floor — rear wall
+
+- Half of the rear wall is clad in **"Dreamy Grey" HPL sheet**.
+
+### Ceiling
+
+- No material change specified — render ceilings (incl. wood-slat pergola soffits)
+  exactly as shown in the reference, unchanged.
+
+### Everything else
+
+- All other materials, colors, and design elements (entry doors, glass railings with
+  brushed-steel posts, exterior wall base tone, flooring, wood-slat cladding on
+  first-floor pillars, spiral staircase, etc.) stay exactly as they already appear in
+  the reference — no substitutions, no extra changes.
+
+## Lighting
+
+- **Daylight** scene — natural sunlight, clear conditions.
+- **Increase lighting intensity** compared to a flat/default render so the scene reads
+  as realistic and well-exposed — enough to bring out the sheen/texture of the antique
+  brass jaali and the black quartz band, and avoid a dull, flat, underlit look.
+
+## Rendering brief (final prompt — materials & lighting only)
+
+Ultra-realistic, high-quality architectural visualization. Image-to-image render that
+strictly preserves the exact geometry, proportions, massing, floor layout, window and
+door positions, balcony design, railing design, and every design element of the
+reference SketchUp model exactly as-is — do NOT alter, add, remove, resize, or
+reinterpret any design element, only apply/refine materials and lighting as specified
+below.
+
+Apply the following materials exactly as specified, nowhere else:
+- Ground-floor boundary wall: solid wall visible in recess behind the lattice (does not
+  disappear); 4-inch antique brass diamond-lattice jaali (alternating filled/cut
+  triangle pattern) inset into a 5-inch recess on the 9-inch wall, paired with
+  horizontal slat louvers and planter strip alongside it exactly as referenced; thick
+  black quartz horizontal band running along the boundary wall.
+- First-floor and second-floor large lattice screen: antique brass, same diamond
+  triangle-grid unit, with the exact uneven density gradient (dense/filled zones
+  dissolving into sparse/open zones) reproduced precisely — no uniform or simplified
+  grille substitution.
+- Entry gate: matte gunmetal-gray louvered panels with antique brass lattice grille
+  insets, exactly as referenced.
+- Second-floor rear wall: half-clad in Dreamy Grey HPL sheet, exactly as referenced.
+- Ceilings, pergola soffits, and all other elements: unchanged, matching the reference
+  exactly.
+
+Lighting: natural daylight, clear sky, higher lighting intensity/exposure than a default
+render so the scene looks photorealistic — sunlight bringing out true material texture
+and sheen on the brass jaali and black quartz band, avoiding flat or dull shadows.
+High-end PBR materials, detailed textures, Global Illumination, Ambient Occlusion, Ray
+Tracing, 8K resolution.
 
 ### Negative prompt
 
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, different building layout, moved or resized
-windows/doors/balconies, added or removed floors, incorrect lattice pattern, white or
-painted lattice, cool gray walls, plastic-looking metal, flat lighting, incorrect
-material color, poorly configured artificial lighting, overly dark shadows, digital
-noise, compression artifacts, presence of people, watermark, text, signature, overly
-saturated colors, cloudy sky, architectural deformation, floating objects, amateur
+windows/doors/balconies, added or removed floors, uniform/simplified lattice pattern
+(losing the filled/cut density gradient), wall disappearing behind lattice, wrong jaali
+color (not antique brass), wrong boundary-wall strip material (not black quartz), wrong
+rear-wall material (not Dreamy Grey HPL), flat/underlit lighting, dull daylight,
+incorrect material color, digital noise, compression artifacts, watermark, text, amateur
 rendering.
 
 ## Note
 
-The 5 reference SketchUp screenshots that accompanied this request are not included in
-this commit — they were shared inline in the requesting conversation and were not
-accessible as files on disk to save into the repository. Add them to this folder
-(e.g. `renders/reference/01-elevation.png` ...) so a rendering tool/service can use them
-alongside this brief.
+The 5 reference SketchUp screenshots were reviewed and analyzed directly (elevation,
+boundary-wall jaali zoom, large lattice screen zoom, gate zoom, planter zoom) to write
+the material/pattern spec above, but arrived as inline chat images with no filesystem
+path, so they could not be committed into this repo. If they can be exported to files
+(e.g. `renders/reference/01-elevation.png`, `02-jaali-zoom.png`, etc.), add them here so
+they can be attached directly to the rendering tool alongside this brief.
