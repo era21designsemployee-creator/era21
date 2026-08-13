@@ -125,16 +125,45 @@ and sheen on the brass jaali and black quartz band, avoiding flat or dull shadow
 High-end PBR materials, detailed textures, Global Illumination, Ambient Occlusion, Ray
 Tracing, 8K resolution.
 
+**Explicit correction — the jaali/lattice on every element (boundary wall inset,
+first/second-floor facade screen, gate insert, terrace pergola arch) must render as
+warm metallic antique brass with a satin sheen and visible dark patina in the recesses —
+it must NOT render as black, charcoal, or dark gunmetal. If unsure, treat the lattice
+color the same as the wood-tone slat cladding/pillars elsewhere on the facade, just more
+metallic/brass. The thick black quartz band on the boundary wall must be clearly
+visible as a distinct dark textured stone strip running along the wall — do not let it
+merge into the wall color or disappear.**
+
 ### Negative prompt
 
 Low resolution, poor quality, blurry image, unrealistic textures, geometric distortion,
 changed design, altered architecture, different building layout, moved or resized
 windows/doors/balconies, added or removed floors, uniform/simplified lattice pattern
-(losing the filled/cut density gradient), wall disappearing behind lattice, wrong jaali
-color (not antique brass), wrong boundary-wall strip material (not black quartz), wrong
-rear-wall material (not Dreamy Grey HPL), flat/underlit lighting, dull daylight,
-incorrect material color, digital noise, compression artifacts, watermark, text, amateur
-rendering.
+(losing the filled/cut density gradient), wall disappearing behind lattice, black or
+charcoal or dark-gunmetal lattice/jaali (must be antique brass, not black), wrong jaali
+color, missing or invisible boundary-wall black quartz strip, wrong boundary-wall strip
+material (not black quartz), wrong rear-wall material (not Dreamy Grey HPL), flat/underlit
+lighting, dull daylight, incorrect material color, digital noise, compression artifacts,
+watermark, text, amateur rendering.
+
+## Render QA — attempt 1 vs. reference (materials only)
+
+A first render attempt was produced and compared against the SketchUp reference
+("Scene 1"). Design/geometry match the reference correctly. Material issues found,
+to be corrected in the next render pass:
+
+1. **All lattice/jaali elements rendered black/dark charcoal instead of antique
+   brass** — the boundary-wall jaali inset, the large first/second-floor facade screen,
+   the gate's lattice insert, and the terrace pergola arch all came out as a dark
+   metal/black grille. These must be corrected to warm antique brass (matching tone
+   used on the wood-slat pillar cladding, just brass/metallic rather than wood).
+2. **Boundary-wall black quartz strip is missing/not visible** — the render does not
+   show the thick black quartz horizontal band on the boundary wall that is clearly
+   present in the reference. It must be added back as a distinct dark textured stone
+   band.
+
+No other material or design corrections are needed — everything else in the render
+attempt matched the reference.
 
 ## Note
 
